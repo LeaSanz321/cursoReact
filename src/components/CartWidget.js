@@ -1,7 +1,13 @@
-import Cart from "../img/cartShopping.svg";
+import "./CartWidget.css";
+import Cart from "../img/cartShopping.png";
+
 function CartWidget(){
     return(
-        <img src={Cart} alt="carrito"></img>
+        <div>
+            <img src={Cart} alt="carrito"></img>
+            0
+        </div>
+        
     );
 }
 

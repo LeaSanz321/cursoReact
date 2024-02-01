@@ -1,15 +1,18 @@
 import CartWidget from "./CartWidget";
+import "./NavBar.css";
 
 function NavBar(){
     return(
         <nav>
+
             <h1>mi E-commerce</h1>
             <ul>
-                <button>Remeras</button>
-                <button>Buzos</button>
-                <button>Zapatillas</button>
+                <li><button>Remeras</button></li>
+                <li><button>Buzos</button></li>
+                <li><button>Zapatillas</button></li>
             </ul>
             <CartWidget/>
+
         </nav>
     );
 }
