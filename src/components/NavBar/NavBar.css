@@ -1,0 +1,14 @@
+nav{
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 10vh;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        margin: auto 20px;
+    }
+}

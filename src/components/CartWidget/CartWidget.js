@@ -1,5 +1,5 @@
 import "./CartWidget.css";
-import Cart from "../img/cartShopping.png";
+import Cart from "../../img/cartShopping.svg";
 
 function CartWidget(){
     return(

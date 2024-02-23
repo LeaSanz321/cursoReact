@@ -1,0 +1,33 @@
+.containerCount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls{
+    display: flex;
+    margin-bottom: 5px;
+    button{
+        cursor: pointer;
+        background-color: blueviolet;
+        color:aliceblue;
+        border-radius: 10px;
+        height: 45px;
+        width: 90px;
+        margin: 0 30px
+    }
+    h4{
+        font-size: 30px;
+    }
+}
+
+.addToCart{
+    cursor: pointer;
+    background-color: blueviolet;
+    color:aliceblue;
+    border-radius: 10px;
+    height: 45px;
+    width: 255px;
+        
+}
