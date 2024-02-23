@@ -21,7 +21,7 @@ const ItemDetailContainer = ()=>{
     }, [itemId]);
 
     return(
-        <div>
+        <div className="ItemDetailContainer">
             <ItemDetail {...itemId}{...product}/>
         </div>
     )

@@ -10,5 +10,6 @@ nav{
         color: aliceblue;
         text-decoration: none;
         margin: auto 20px;
+        font-weight: 600;
     }
 }
