@@ -85,7 +85,7 @@ const products = [
       "price": 47.99,
       "category": "zapatillas",
       "stock":"10",
-      "img": "https://www.deportesliverpool.es/blog/wp-content/uploads/2018/02/nike-run-swift-liverpool.jpg"
+      "img": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-under-armour-surge-3-azul-18330476-700013024883403-1.jpg"
     },
     {
       "id": 12,
@@ -93,7 +93,7 @@ const products = [
       "price": 52.99,
       "category": "zapatillas",
       "stock":"10",
-      "img": "https://www.lakaiargentina.com/images/large/lakaiargentina/Zapatillas%20Skate%20LaKai%20Newport%20Rojas%20144_ZOOM.jpg"
+      "img": "https://a.allegroimg.com/original/115e1c/55f1f2e74fd19d8c2498c30fb9f8"
     }
   ];
 
