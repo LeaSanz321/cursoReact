@@ -3,7 +3,7 @@ const products = [
       "id": 1,
       "name": "Remera básica blanca",
       "price": 15.99,
-      "category": "remeras",
+      "category": "Remeras",
       "stock":"10",
       "img": "https://http2.mlstatic.com/D_NQ_NP_995984-MLA45254266710_032021-O.webpremera_blanca.jpg"
     },
@@ -11,7 +11,7 @@ const products = [
       "id": 2,
       "name": "Remera estampada floral",
       "price": 19.99,
-      "category": "remeras",
+      "category": "Remeras",
       "stock":"10",
       "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/628746e0531a460dbf88ad480115762b_9366/Remera_Floral_Holgada_Multicolor_H15788_01_laydown.jpg"
     },
@@ -19,7 +19,7 @@ const products = [
       "id": 3,
       "name": "Remera de algodón negro",
       "price": 17.50,
-      "category": "remeras",
+      "category": "Remeras",
       "stock":"10",
       "img": "https://acdn.mitiendanube.com/stores/614/713/products/remera-frente1-1f1e0683f854ff488316794946967451-1024-1024.jpg"
     },
@@ -27,7 +27,7 @@ const products = [
       "id": 4,
       "name": "Remera manga larga a rayas",
       "price": 22.99,
-      "category": "remeras",
+      "category": "Remeras",
       "stock":"10",
       "img": "https://static.lefties.com/9/photos2/2022/I/0/2/p/5032/505/710/5032505710_1_1_3.jpg?t=1661327734563"
     },
@@ -35,7 +35,7 @@ const products = [
       "id": 5,
       "name": "Buzo con capucha gris",
       "price": 29.99,
-      "category": "buzos",
+      "category": "Buzos",
       "stock":"10",
       "img": "https://falabella.scene7.com/is/image/FalabellaCO/gsc_126339490_4531722_1?wid=800&hei=800&qlt=70"
     },
@@ -43,7 +43,7 @@ const products = [
       "id": 6,
       "name": "Buzo deportivo azul",
       "price": 34.50,
-      "category": "buzos",
+      "category": "Buzos",
       "stock":"10",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/cf0b9b06-dd58-42ed-8487-222af270755a1-51ffc82ca725c856d816807941758976-640-0.webp"
     },
@@ -51,7 +51,7 @@ const products = [
       "id": 7,
       "name": "Buzo canguro negro",
       "price": 27.99,
-      "category": "buzos",
+      "category": "Buzos",
       "stock":"10",
       "img": "https://acdn.mitiendanube.com/stores/002/292/081/products/3-901-e3cf717aa78e5299a116681790544725-1024-1024.jpg"
     },
@@ -59,7 +59,7 @@ const products = [
       "id": 8,
       "name": "Buzo canguro rojo",
       "price": 31.99,
-      "category": "buzos",
+      "category": "Buzos",
       "stock":"10",
       "img": "https://http2.mlstatic.com/D_NQ_NP_751206-MLA53887749578_022023-O.webp"
     },
@@ -67,7 +67,7 @@ const products = [
       "id": 9,
       "name": "Zapatillas deportivas blancas",
       "price": 49.99,
-      "category": "zapatillas",
+      "category": "Zapatillas",
       "stock":"10",
       "img": "https://m.media-amazon.com/images/I/71BpPO3nYkL._AC_UY395_.jpg"
     },
@@ -75,7 +75,7 @@ const products = [
       "id": 10,
       "name": "Zapatillas urbanas negras",
       "price": 54.50,
-      "category": "zapatillas",
+      "category": "Zapatillas",
       "stock":"10",
       "img": "https://http2.mlstatic.com/D_NQ_NP_604054-MLA50221494182_062022-O.webp"
     },
@@ -83,7 +83,7 @@ const products = [
       "id": 11,
       "name": "Zapatillas de running azules",
       "price": 47.99,
-      "category": "zapatillas",
+      "category": "Zapatillas",
       "stock":"10",
       "img": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-under-armour-surge-3-azul-18330476-700013024883403-1.jpg"
     },
@@ -91,7 +91,7 @@ const products = [
       "id": 12,
       "name": "Zapatillas de skate rojas",
       "price": 52.99,
-      "category": "zapatillas",
+      "category": "Zapatillas",
       "stock":"10",
       "img": "https://a.allegroimg.com/original/115e1c/55f1f2e74fd19d8c2498c30fb9f8"
     }
@@ -116,3 +116,5 @@ export const getProductByCategory = (productCategory) => {
         resolve(products.filter(prod => prod.category === productCategory))
     }, 500)
 }
+
+export default products;

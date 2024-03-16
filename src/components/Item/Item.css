@@ -1,47 +1,37 @@
-.article{
-    width: 320px;
-    height: 517px;
-    margin: 10px 5px;
-    padding: 15px;
-    border: 1px solid rgb(195, 194, 194);
-    border-radius:30px;
-    background: #fff;
-    header{
-        text-align: center;
-        h2{
+.prodContainer{
+    height: 540px;
+    width: 350px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.833);
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 10px;
+    img{
+        object-fit: contain;
+        width: 260px;
+        height: 380px;
+    }
+    .prodDetalles{
+        h4{
             font-size: 20px;
         }
-    }
-    picture{
-        display: inline-block;
-        height: 350px;
-        width: 280px;
-        margin-top: 10px;
-
-        img{
-            object-fit:contain;
-            height: 100%;
-            width: 100%;
+        p{
+            font-size: 15px;
+            span{
+                font-weight: bolder;
+            }
             
         }
-    }
-    section{
-        p{
-            font-weight: 600;
+        p:nth-child(3){
+            color: rgba(50, 50, 50, 0.622);
+            margin-bottom: 18px;
         }
-        .stock{
-            font-size: 13px;
-            color: gray
-        }
-    }
-    footer{
-        margin-top: 15px;
         a{
-            color: aliceblue;
-            text-decoration: none;
             background-color: blueviolet;
-            border-radius: 5px;
-            padding: 4px 50px;
+            text-decoration: none;
+            color: aliceblue;
+            padding: 5px 35px;
+            border-radius: 20px;
         }
     }
 }

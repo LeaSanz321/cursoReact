@@ -1,5 +1,13 @@
-.containerItems{
+.container{
+    text-align: center;
+    padding: 30px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 30px;
+    }
 }

@@ -1,38 +1,33 @@
 .containerCount{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.controls{
-    display: flex;
-    margin-bottom: 5px;
-    button{
-        cursor: pointer;
+    margin-top: 22px;
+    .buttons{
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: center;
+        button{
+            width: 45px;
+            height: 30px;
+            background-color: blueviolet;
+            color:aliceblue;
+            border-radius: 15px;
+            cursor: pointer;
+            border: none;
+        }
+        p{
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+    .agregarButton{
+        width: 160px;
+        height: 45px;
         background-color: blueviolet;
         color:aliceblue;
-        border-radius: 10px;
-        height: 24px;
-        width: 40px;
-        margin: 0 30px;
-        font-size: 15px;
-        margin-bottom: 5px;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
     }
-    h4{
-        font-size: 15px;
-    }
-}
-
-.addToCart{
-    margin-top: 5px;
-    cursor: pointer;
-    background-color: blueviolet;
-    color:aliceblue;
-    border-radius: 10px;
-    height: 45px;
-    width: 255px;
-    font-weight:bold;
-    letter-spacing: 1px;
-        
 }
