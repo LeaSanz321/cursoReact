@@ -1,0 +1,57 @@
+.checkContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+    height: 85vh;
+    h1{
+        color: rgba(29, 29, 29, 0.845);
+    }
+    form{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        width: 400px;
+        input{
+            width: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            border: none;
+            margin: 20px 0;
+        }
+        button{
+            border: none;
+            background-color: blueviolet;
+            color:aliceblue;
+            width: 100%;
+            border-radius: 5px;
+            padding: 15px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    }
+}
+.compraOkContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    h1{
+        margin:15px 0;
+        font-size: 40px;
+    }
+    p{
+        span{
+            background-color: rgba(84, 6, 157, 0.81);
+            color: aliceblue;
+            padding: 2px 10px;
+            border-radius: 3px;
+
+        }
+    }
+}
